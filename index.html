@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Mis XV Años Alexsandra</title>
+  <meta name="description" content="Portada interactiva premium para la invitación de Mis XV Años Alexsandra." />
+  <meta property="og:title" content="Mis XV Años Alexsandra" />
+  <meta property="og:description" content="Toca la bola disco para abrir la invitación." />
+  <meta property="og:image" content="portada-alexsandra.png" />
+  <meta name="theme-color" content="#06122c" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="scene" id="scene">
+    <div class="ambient ambient-1"></div>
+    <div class="ambient ambient-2"></div>
+    <div class="beam beam-left"></div>
+    <div class="beam beam-right"></div>
+    <div class="stars"></div>
+
+    <section class="invitation-card" id="card" aria-label="Portada interactiva de la invitación de Alexsandra">
+      <img src="portada-alexsandra.png" alt="Portada Mis XV Años Alexsandra" class="cover" />
+
+      <a class="disco-button" id="discoButton" href="https://alexsandra.site" aria-label="Abrir invitación de Alexsandra">
+        <span class="mirror-rotation"></span>
+        <span class="mirror-grid"></span>
+        <span class="highlight highlight-a"></span>
+        <span class="highlight highlight-b"></span>
+        <span class="pulse-ring"></span>
+      </a>
+
+      <div class="premium-hint" aria-hidden="true">
+        <span>Haz clic en la bola disco</span>
+        <strong>para ver la invitación</strong>
+      </div>
+    </section>
+
+    <button class="music-button" id="musicButton" type="button">♪ Activar brillo</button>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
