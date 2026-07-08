@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Mis XV Años Alexsandra</title>
+  <meta name="description" content="Portada interactiva de invitación para Mis XV Años Alexsandra." />
+  <meta property="og:title" content="Mis XV Años Alexsandra" />
+  <meta property="og:description" content="Toca la bola disco para ver la invitación." />
+  <meta property="og:image" content="portada-alexsandra.png" />
+  <meta name="theme-color" content="#06122c" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="stage" aria-label="Portada interactiva Mis XV Años Alexsandra">
+    <div class="bg-glow" aria-hidden="true"></div>
+    <div class="spotlight one" aria-hidden="true"></div>
+    <div class="spotlight two" aria-hidden="true"></div>
+    <div class="sparkles" aria-hidden="true"></div>
+
+    <section class="card" id="card">
+      <img class="cover" src="portada-alexsandra.png" alt="Portada de invitación Mis XV Años Alexsandra" />
+
+      <!-- Área clicable EXACTAMENTE sobre la bola disco. No agrega texto extra. -->
+      <a class="disco-link" id="discoLink" href="https://alexsandra.site" aria-label="Abrir invitación de Alexsandra">
+        <span class="mirror-rotation" aria-hidden="true"></span>
+        <span class="mirror-grid" aria-hidden="true"></span>
+        <span class="light-sweep" aria-hidden="true"></span>
+        <span class="spark spark-a" aria-hidden="true"></span>
+        <span class="spark spark-b" aria-hidden="true"></span>
+      </a>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
